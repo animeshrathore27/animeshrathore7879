@@ -29,6 +29,7 @@ public class signup extends AppCompatActivity {
         phone=findViewById(R.id.phone);
         password=findViewById(R.id.password);
 
+        button = findViewById(R.id.button);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
