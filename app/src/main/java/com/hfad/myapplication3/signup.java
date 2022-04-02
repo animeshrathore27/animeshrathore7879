@@ -22,11 +22,14 @@ public class signup extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signup);
-        name= findViewById(R.id.name);
+
+        name = findViewById(R.id.name);
         username=findViewById(R.id.username);
         email=findViewById(R.id.email);
         phone=findViewById(R.id.phone);
         password=findViewById(R.id.password);
+
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
